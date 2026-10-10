@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OhMyShares — open-source self-hosted investment portfolio tracker</title>
+    <meta
+      name="description"
+      content="Track stocks, bonds, crypto and custom assets across brokers and currencies. Free, open-source (AGPL-3.0) and self-hosted with Docker. Your data stays on your server."
+    />
+    <meta name="keywords" content="portfolio tracker, self-hosted, open source, investments, dividends, stocks, bonds, crypto, docker" />
+    <meta name="theme-color" content="#07090a" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="canonical" href="https://ohmyshares.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ohmyshares.com/" />
+    <meta property="og:site_name" content="OhMyShares" />
+    <meta property="og:title" content="OhMyShares — your investments, your server" />
+    <meta
+      property="og:description"
+      content="Open-source self-hosted portfolio tracker: trades, dividends, multi-currency analytics and a plugin ecosystem."
+    />
+    <meta property="og:image" content="https://ohmyshares.com/og-image.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "OhMyShares",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Linux, Docker",
+        "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "codeRepository": "https://github.com/OhMyShares/ohmyshares"
+      }
+    </script>
+  </head>
+  <body class="bg-ink-950 text-zinc-300 antialiased">
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 2rem; text-align: center">
+        OhMyShares — open-source self-hosted portfolio tracker.
+        <a href="https://github.com/OhMyShares/ohmyshares">github.com/OhMyShares/ohmyshares</a>
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
