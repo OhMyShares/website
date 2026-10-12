@@ -136,7 +136,7 @@ export function Install() {
 
           <Reveal delay={120} className="min-w-0">
             <div className="card flex h-full flex-col overflow-hidden shadow-2xl shadow-black/50">
-              <div className="flex items-center justify-between gap-2 border-b border-white/[0.06] px-3 py-2">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.06] px-3 py-2">
                 <div role="tablist" className="flex gap-1">
                   {tabs.map(({ id, label, Icon }) => (
                     <button

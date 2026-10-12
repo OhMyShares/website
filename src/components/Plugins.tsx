@@ -98,7 +98,7 @@ export function Plugins() {
           </div>
         </div>
 
-        <Reveal delay={150} className="lg:sticky lg:top-24">
+        <Reveal delay={150} className="min-w-0 lg:sticky lg:top-24">
           <div className="card overflow-hidden shadow-2xl shadow-black/50">
             <div className="flex items-center gap-2 border-b border-white/[0.06] px-4 py-3">
               <span className="size-2.5 rounded-full bg-rose-400/70" />

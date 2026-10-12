@@ -57,7 +57,7 @@ function DashboardMock() {
         ].map((kpi) => (
           <div key={kpi.label} className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3">
             <div className="truncate text-[11px] text-zinc-500">{kpi.label}</div>
-            <div className="mt-1 text-base font-semibold tracking-tight text-white tabular-nums sm:text-xl">{kpi.value}</div>
+            <div className="mt-1 text-sm font-semibold tracking-tight text-white tabular-nums sm:text-xl">{kpi.value}</div>
             <div className="mt-0.5 flex items-center gap-1 text-[11px] font-medium text-brand-400">
               <TrendingUp className="size-3" />
               {kpi.sub}
